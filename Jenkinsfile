@@ -8,4 +8,5 @@ node('localhost') {
    stage 'Stage 3'
    bat 'chdir'
    bat 'echo \'Hello World 3\' > E:\\software\\3.txt'
+   bat 'git clone https://github.com/SuperArnold/t24Java.git'
 }
