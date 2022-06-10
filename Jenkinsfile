@@ -11,7 +11,7 @@ node('localhost') {
        bat 'chdir'
        bat 'git pull'
    }
-   dir("E:\software") {
+   dir("E:\\software") {
        bat 'chdir'
    }
 }
