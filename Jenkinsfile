@@ -5,4 +5,7 @@ node('localhost') {
    stage 'Stage 2'
    bat 'chdir'
    bat 'echo \'Hello World 2\' > E:\\software\\2.txt'
+   stage 'Stage 3'
+   bat 'chdir'
+   bat 'echo \'Hello World 3\' > E:\\software\\3.txt'
 }
