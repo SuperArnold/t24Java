@@ -14,4 +14,5 @@ node('localhost') {
    dir("E:\\software") {
        bat 'dir'
    }
+   bat 'chdir'
 }
