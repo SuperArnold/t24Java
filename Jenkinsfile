@@ -9,5 +9,5 @@ node('localhost') {
    bat 'chdir'
    bat 'echo \'Hello World 3\' > E:\\software\\3.txt'
    bat 'cd t24Java'
-   bat 'git pull'
+   bat 'git pull https://github.com/SuperArnold/t24Java.git'
 }
