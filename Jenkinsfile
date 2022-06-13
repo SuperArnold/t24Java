@@ -11,6 +11,7 @@ node('Arnold_Notebook') {
        bat 'chdir'
        bat 'git pull'
    }
+   
    dir("E:\\software") {
        bat 'dir'
    }
