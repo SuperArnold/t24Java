@@ -9,7 +9,7 @@ node('Arnold_Notebook') {
    bat 'echo \'Hello World 3\' > E:\\software\\3.txt'
    dir("t24Java") {
        bat 'chdir'
-       bat 'git pull'
+       bat 'git clone'
    }
    dir("E:\\software") {
        bat 'dir'
