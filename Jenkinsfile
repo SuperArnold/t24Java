@@ -1,4 +1,4 @@
-node('localhost') {
+node('Arnold_Notebook') {
    stage 'Stage 1'
    bat 'chdir'
    bat 'echo \'Hello World 1\' > E:\\software\\1.txt'
