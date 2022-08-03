@@ -16,4 +16,5 @@ node('Arnold_Notebook') {
        bat 'dir'
    }
    bat 'chdir'
+   bat 'chdir'
 }
